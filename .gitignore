@@ -1,0 +1,41 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and secrets
+.env
+.env.local
+
+# Control plane & pipeline state
+state/
+.dlt/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Data artifacts & local testing data
+*.parquet
+*.jsonl
+*.csv
+minio_data/
+clickhouse_data/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
